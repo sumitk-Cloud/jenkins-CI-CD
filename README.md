@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### Node.jsPortfolioDeploymentusingJenkins CI/CD, GitHub &AWS EC2
 ProjectOverview
 This project demonstrates the automated deployment of a Node.js portfolio application using Jenkins,GitHub, andAWSEC2. AJenkinspipelinedefined ina Jenkinsfileautomatescode checkout, dependency installation, application building, testing, and deployment to an EC2 instance.
