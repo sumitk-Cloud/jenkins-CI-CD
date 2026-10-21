@@ -92,7 +92,7 @@ Oncedeployment issuccessful,userscanaccesstheportfolio usingtheconfiguredpublicI
 
 ### 5. Live Portfolio Website
 
-![Live Portfolio Website](screenshots/IMG5.png)
+![Live Portfolio Website](screenshots/IMG6.png)
 
 ### KeyLearnings
 •	ImplementingCI/CDwithJenkins.
