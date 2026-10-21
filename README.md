@@ -1,10 +1,9 @@
-<<<<<<< HEAD
-### Node.jsPortfolioDeploymentusingJenkins CI/CD, GitHub &AWS EC2
+# 🚀Node.jsPortfolioDeploymentusingJenkins CI/CD, GitHub &AWS EC2
 ProjectOverview
 This project demonstrates the automated deployment of a Node.js portfolio application using Jenkins,GitHub, andAWSEC2. AJenkinspipelinedefined ina Jenkinsfileautomatescode checkout, dependency installation, application building, testing, and deployment to an EC2 instance.
 Thegoalistosimplifyapplicationdeployment,reduce manualeffort,andimplement a continuous integration and continuous delivery (CI/CD) workflow.
 
-### ProjectObjectives
+## 📌ProjectObjectives
 •	AutomateNode.jsapplicationdeploymentusingJenkins.
 •	IntegrateGitHubwithJenkinsusing webhooks.
 •	Definepipelinestagesusinga Jenkinsfile.
@@ -23,8 +22,8 @@ Jenkinsfile	Pipelinedefinition
 GitHubWebhooks	TriggerJenkinsbuilds
 AWS EC2	Applicationhosting
 npm	Dependencymanagement
- 
-### ArchitectureDiagram
+
+## 🏗️ArchitectureDiagram
 ![ArchitectureDiagram](screenshots/IMG5.png)
 
 ### ArchitectureWorkflow
@@ -57,15 +56,14 @@ Stage5:ApplicationAccess
 Oncedeployment issuccessful,userscanaccesstheportfolio usingtheconfiguredpublicIP address or domain.
 
 
-
-### AWSEC2 Configuration
+## ⚙️ AWSEC2 Configuration
 1.	LaunchanEC2 instancewithasuitableLinuxoperating system.
 2.	ConfigureSSHaccessfortheJenkinsdeploymentagent.
 3.	ConfiguretheEC2securitygroupto allowonlytherequiredinbound traffic.
 4.	Deploytheapplicationandensure it runspersistentlyusinganappropriateprocess manager, such as PM2, or a container restart policy.
 5.	OptionallyconfigureNginxandadomainnamewithHTTPS.
 
-### SecurityBestPractices
+## 🔐 SecurityBestPractices
 •	UseJenkinsCredentialstostoresensitivedeploymentcredentials.
 •	RestrictSSHaccessto trustedsources.
 •	Applyleast-privilegepermissionstoAWSIAMusersand roles.
@@ -94,7 +92,8 @@ Oncedeployment issuccessful,userscanaccesstheportfolio usingtheconfiguredpublicI
 
 ![Live Portfolio Website](screenshots/IMG6.png)
 
-### KeyLearnings
+
+## 💡 KeyLearnings
 •	ImplementingCI/CDwithJenkins.
 •	Integrating GitHubwebhookswithJenkins.
 •	ManagingNode.jsdependenciesandbuild stages.
@@ -102,7 +101,7 @@ Oncedeployment issuccessful,userscanaccesstheportfolio usingtheconfiguredpublicI
 •	Managingdeploymentcredentialssecurely.
 •	Understandingautomatedapplicationdelivery.
 
-### FutureEnhancements
+## 🚀 FutureEnhancements
 •	ContainerizetheapplicationusingDocker.
 •	AddDockerimagepublishingtoAmazonECR.
 •	DeployusingAmazonECSorKubernetes.
@@ -110,8 +109,14 @@ Oncedeployment issuccessful,userscanaccesstheportfolio usingtheconfiguredpublicI
 •	Addautomatedcodequalityandsecurityscans.
 •	Introducemonitoringandnotificationsforfaileddeployments.
 
-### Author
-SumitKamble
-•	GitHub:sumitk-Cloud
-•	LinkedIn:SumitKamble
-•	Email:sumitkamble5550@gmail.com
+## 👨‍💻 Author
+
+**Sumit Kamble**
+
+- **GitHub:** [sumitk-Cloud](https://github.com/sumitk-Cloud/)
+- **LinkedIn:** [Sumit Kamble](https://linkedin.com/in/sumit-kamble-a6a3b5405)
+- **Email:** [sumitkamble5550@gmail.com](mailto:sumitkamble5550@gmail.com)
+
+---
+
+⭐ If you find this project useful, consider giving the repository a star.
